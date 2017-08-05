@@ -1,0 +1,117 @@
+*
+{
+	transition:all 1s;
+	text-align:center;
+	font-family:Segoe UI;
+	/*outline:1px solid red;*/
+
+}
+.layer
+{
+	background:url(../images/stockmarket.jpg);
+	width:100%;
+	height:100%;
+	background-size:cover;
+	background-repeat:no-repeat;
+	position:absolute;
+	top:0;
+	left:0;
+	text-align:center;
+}
+.layer2
+{
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,.8);
+	position:absolute;
+	top:0;
+	left:0;
+	
+	
+}
+.welc
+{
+	color:#CCC;
+	font-size:45px;
+	margin:auto;
+}
+
+p
+{
+	font-size:20px;
+	text-align:left;
+	color:#CCC;
+	
+}
+form
+{
+	position:absolute;
+	top:10%;
+	left:25%;
+	width:50%;
+	height:80%;
+	border:solid 3px #CCC;
+	border-radius:5px;
+	background-color:rgba(0,0,0,.8);
+	color:#FFF;
+	
+}
+input
+{
+	width:80%;
+	border-radius:7px;
+	display:block;
+	margin:auto;
+	margin-top:30px;
+	padding:5px 10px;
+	text-align:left;
+	color:#000;
+	
+}
+form button
+{
+	
+	text-decoration:none;
+	background:rgba(204,204,204,.7);
+	border:none;
+	border-radius:5pc;
+	padding:10px 100px;
+	font-size:20px;
+	margin:auto;
+	margin-top:10px;
+	color:#000;
+	
+	
+}
+form button:hover
+{
+	background:#000;
+	color:#157ca5;/*lbny*/
+	
+	
+}
+.cancle
+{
+	
+	text-decoration:none;
+	background:rgba(204,204,204,.7);
+	border:none;
+	border-radius:5pc;
+	padding:10px 100px;
+	font-size:20px;
+	margin:auto;
+	margin-top:10px;
+	color:#000;
+	position:absolute;
+	bottom:13%;
+	left:42%;
+	
+	
+}
+.cancle:hover
+{
+	background:#000;
+	color:#157ca5;/*lbny*/
+	
+	
+}
